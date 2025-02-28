@@ -25,3 +25,14 @@
 `git switch [feature-name]` → switch to the branch
 `git push [remote repository] [feature-name]`
 `git branch -d [feature-name]` → deletes branch
+
+## Git lingo
+
+"outside your stage area" → when you made some changes but didn’t add yet
+"stage area" → what can be added in your commit
+"commit" → the stuff that was in your stage area that is on git (and that other people can see now) but is not pushed yet
+
+## What happens when
+
+"your branch has diverged" → when some other person has another commit
+`git pull --rebase` → when you have to import the commit from the other person and then you can push your changes
