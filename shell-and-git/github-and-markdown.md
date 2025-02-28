@@ -36,3 +36,10 @@
 
 "your branch has diverged" → when some other person has another commit
 `git pull --rebase` → when you have to import the commit from the other person and then you can push your changes
+
+## Pull requests
+
+1. [assuming that you created a new branch to work on your feature]
+2. Create a pull request to see changes and whether there are any conflicts
+3. Do a code review to make sure nothing is wrong
+4. Merge pull request to incorporate changes into the main branch (remote)
